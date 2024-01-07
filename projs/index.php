@@ -1,6 +1,4 @@
-<?php
-	include("../connections.php");
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +213,7 @@
                 <a href="https://www.youtube.com/channel/UCEQGmgTbi6Va5sKyhYos_jg" target="_blank" title="My YouTube!">
                     <img class="sc" src="../assets/youtube.svg" alt="YouTube">
                 </a>
-                <a href="https://discord.gg/invite/wMkbqJb9NW" target="_blank" title="My Discord Server!">
+                <a href="https://discord.gg/7QD9EmtKZZ" target="_blank" title="My Discord Server!">
                     <img class="sc" src="../assets/discord.svg" alt="Discord">
                 </a>
             </div>
@@ -223,13 +221,8 @@
 	<br>
     <div class="boxBOx">
     <center>
-		<h4>yo, these are the projects i have worked on.</h4>
+		<h4>aver’s Projects</h4>
 		<hr>
-        <center>
-            <button class="highlight audmg" onclick="document.location='https://gamejolt.com/games/audmg/760664'"></button>
-            <button class="highlight warshi" onclick="document.location='warshi/'"></button>
-            <button class="highlight frisk" onclick="document.location='https://fgfhfh.chinnpphathulpa.repl.co'"></button>
-        </center>
     </center>
     </div>
 </body>
