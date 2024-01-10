@@ -18,10 +18,6 @@
 		  border-bottom: 0px solid #292929;
 		  padding-left: 20px;
 		}
-		div.clock
-		{
-			padding-left: 20px;
-		}
         body
         {
             background-image: url('../assets/legacy4.png');
@@ -34,6 +30,7 @@
         a
         {
             text-decoration: none;
+            color: #bf7aff;
         }
         hr
         {
@@ -73,29 +70,27 @@
         img.sc{
             height: 25px;
         }
-        .ww
-        {
-            color: #d97ef2;
-        }
         .boxBOx
         {
-            margin: 0;
+            margin: auto;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            width: 80%;
+            top: 35%;
+          transform: translate(20%,0%);
         }
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .nt {
 display: inline-block;
 padding-left: 20px;
 }
-        .highlight{
-            background-color: #753587;
+        button{
             border: none;
             color: white;
-            width: 125px;
-            height: 125px;
+            padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -106,22 +101,13 @@ padding-left: 20px;
             transition-duration: 0.4s;
             margin-top: 10px;
         }
-        .normal
-        {
-            border: none;
-            color: white;
-            padding: 15px 60px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 12px;
-            left: 50%;
-            right: 50%;
-            background-color: #252525;
-            transition-duration: 0.4s;
-            margin-top: 10px;
-        }
+.normal {
+  background-color: #292929;
+}
+.highlight
+{
+  background-color: #753587;
+}
         .normal:hover
         {
             background-color: #121212;
@@ -133,14 +119,14 @@ padding-left: 20px;
         .about
         {
             background-color: #252525;
-            width: 800px;
+            width: 80%;
             height: 940px;
             border-radius: 12px;
             opacity: 0.7;
             padding: 20px;
-            margin-top: 100px;
+            margin-top: 500px;
             position: absolute;
-            top: 60%;
+            top: 80%;
             left: 50%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -157,34 +143,16 @@ padding-left: 20px;
         .postbox
         {
             width: 80%;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 20px;
+            height: auto;
+            margin-top: 5%;
         }
 .preview
 {
 border-radius: 40px;
 }
-.cb{margin-top:10px;}
-.rund{border-radius: 40px;}
-        .audmg
-        {
-            background-image: url('https://m.gjcdn.net/community-thumbnail/100/112100-chcz6bf3-v4.jpg');
-            background-size: cover;
-            background-color: #292929;
-            background-attachment: fixed;
-        }
-        .warshi
-        {
-            background-image: url('../assets/omnirunes.png');
-            background-size: cover;
-            background-color: #292929;
-            background-attachment: fixed;
-        }
-        .frisk
-        {
-            background-image: url('https://cdn.discordapp.com/avatars/1059371380036079677/b7509e83faf2e993d2c0004ee66a9066.webp?size=128');
-            background-size: cover;
-            background-color: #292929;
-            background-attachment: fixed;
-        }
+.cb{
+  margin-top:10px;
+}
+.rund{
+  border-radius: 40px;
+}
